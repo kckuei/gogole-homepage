@@ -3,20 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=sans-serif">
     <link rel="stylesheet" href="assets/stylesheets/main.css">
     <link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
 <body>
 
     <header>
-        <div id="about">About</div>
-        <div id="store">Store</div>
-        <div id="gmail">Gmail</div>
-        <div id="images">Images</div>
+        <div class="text-link" id="about">About</div>
+        <div class="text-link" id="store">Store</div>
+        <div class="text-link" id="gmail">Gmail</div>
+        <div class="text-link" id="images">Images</div>
+        
+        <a class="google-apps-anchors" id="google-apps-anchor" href="">
+            <i id="google-apps" class="material-icons">apps</i>
+        </a>
 
-        <div id="google-apps"></div>
-        <div id="sign-in"></div>
+        <div id="sign-in-container">
+            <input class="signin" id="sign-in-button" type="button" value="Sign in">
+        </div>
     </header>
 
 
@@ -29,18 +35,18 @@
         <input class="search-buttons" id="search-button" type="button" value="Google Search"></input>
         <input class="search-buttons" id="lucky-button" type="button" value="I'm Feeling Lucky"></input>
 
-        <div id="language">Google offered in: <a href="">Français</a></div>
-        
-        <div id="country">Canada</div>
+        <div id="language-string">Google offered in: <a class="text-link" id="language" href="">Français</a></div>
     </div>
 
+    <div id="country">Canada</div>
+
     <footer>
-        <div id="advertising">Advertising</div>
-        <div id="business">Business</div>
-        <div id="how-search-works">How Search works</div>
-        <div id="privacy">Privacy</div>
-        <div id="terms">Terms</div>
-        <div id="settings">Settings</div>
+        <div class="text-link" id="advertising">Advertising</div>
+        <div class="text-link" id="business">Business</div>
+        <div class="text-link" id="how-search-works">How Search works</div>
+        <div class="text-link" id="privacy">Privacy</div>
+        <div class="text-link" id="terms">Terms</div>
+        <div class="text-link" id="settings">Settings</div>
     </footer>
 </body>
 
