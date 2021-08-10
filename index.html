@@ -1,37 +1,47 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <style>
-
-
-    </style>
-
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
 <body>
 
-    <div>About</div>
-    <div>Store</div>
-    <div>Gmail</div>
-    <div>Images</div>
+    <header>
+        <div id="about">About</div>
+        <div id="store">Store</div>
+        <div id="gmail">Gmail</div>
+        <div id="images">Images</div>
 
-    <div id="google-apps"></div>
-    <div id="sign-in"></div>
+        <div id="google-apps"></div>
+        <div id="sign-in"></div>
+    </header>
 
-    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    <input type="search" value=""></input>
+
+    <div id=logo-container>
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+    </div>
     
-    <input type="button" value="Google Search"></input>
-    <input type="button" value="I'm Feeling Lucky"></input>
-    <div>Google offered in: <a href="">Français</a></div>
-    
-    <div>Canada</div>
+    <div id="search-container">
+        <input id="search-box" type="search" value=""></input>
+        <input class="search-buttons" id="search-button" type="button" value="Google Search"></input>
+        <input class="search-buttons" id="lucky-button" type="button" value="I'm Feeling Lucky"></input>
 
-    <div>Advertising</div>
-    <div>Business</div>
-    <div>How Search works</div>
-    <div>Privacy</div>
-    <div>Terms</div>
-    <div>Settings</div>
+        <div id="language">Google offered in: <a href="">Français</a></div>
+        
+        <div id="country">Canada</div>
+    </div>
 
-    <div></div>
+    <footer>
+        <div id="advertising">Advertising</div>
+        <div id="business">Business</div>
+        <div id="how-search-works">How Search works</div>
+        <div id="privacy">Privacy</div>
+        <div id="terms">Terms</div>
+        <div id="settings">Settings</div>
+    </footer>
 </body>
+
+</html>
