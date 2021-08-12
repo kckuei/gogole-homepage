@@ -113,11 +113,32 @@ header {
     display: flex;
     align-items: center;
     padding: 6px;
+    justify-content: space-between;
 }
+
+#head-left {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#head-right {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+    justify-content: flex-end;
+    /* justify-content: space-between; */
+}
+
+
 
 footer {
     color: rgba(0,0,0,.54);
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
     padding: 6px;
     width: 100%;
@@ -126,3 +147,17 @@ footer {
     background-color:#f8f9fa;
 }
 
+#foot-left {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#foot-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}

@@ -6,6 +6,8 @@
 https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css#try-these-before-starting
 https://learn.shayhowe.com/html-css/building-your-first-web-page/
 https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ [very useful]
+https://css-tricks.com/snippets/css/complete-guide-grid/ [very useful]
 
 -Approach
 1. Read through Shay Howe Lesson 1 Tutorial
